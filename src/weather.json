@@ -1,0 +1,43 @@
+{
+    "coord": {
+    "lon": 77.2167,
+    "lat": 28.6667
+    },
+    "weather": [
+    {
+    "id": 721,
+    "main": "Haze",
+    "description": "haze",
+    "icon": "50d"
+    }
+    ],
+    "base": "stations",
+    "main": {
+    "temp": 305.2,
+    "feels_like": 312.2,
+    "temp_min": 304.43,
+    "temp_max": 305.2,
+    "pressure": 1002,
+    "humidity": 70
+    },
+    "visibility": 4500,
+    "wind": {
+    "speed": 2.06,
+    "deg": 60
+    },
+    "clouds": {
+    "all": 75
+    },
+    "dt": 1658404221,
+    "sys": {
+    "type": 1,
+    "id": 9165,
+    "country": "IN",
+    "sunrise": 1658361958,
+    "sunset": 1658411323
+    },
+    "timezone": 19800,
+    "id": 1273294,
+    "name": "Delhi",
+    "cod": 200
+    }

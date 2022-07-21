@@ -20,7 +20,7 @@ const api={
     <>
     <div className="container" style={{backgroundImage:`url(${cloud})`,height:'1000px',width:'2000px',backgroundSize:'cover',backgroundRepeat: 'no-repeat',position:"fixed"}}>
     
-    <h1 className="display-1 text-center color-white $display-font-weight: 300">Weather</h1>
+    <h1 className="display-1 text-center color-white $display-font-weight: 300">Weather Web</h1>
 
     
     </div>

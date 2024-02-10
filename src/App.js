@@ -19,10 +19,7 @@ const searchLocation=(event)=>{
 
 }
 
-const api={
-  key:"dd34722e1312392913bdae9cd8aaeca0",
-  base:"https://api.openweathermap.org/data/2.5/"
-}
+
 
   return (
     
@@ -31,7 +28,7 @@ const api={
         <input
         value={location}
         onChange={event=>setLocation(event.target.value)}
-        onKeyPress={searchLocation}
+        onKeyPress ={searchLocation}
         placeholder="Enter location"
         type="text" />
       </div>
@@ -45,7 +42,7 @@ const api={
         
         </div>
         
-        {data.name!=undefined &&
+        {data.name!==undefined &&
         <div className="bottom">
         <div className="description">
           {data.weather?<p>{data.weather[0].main}</p>:null}
